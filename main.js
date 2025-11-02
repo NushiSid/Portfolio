@@ -12,3 +12,12 @@ function Movies(){
 
 
 }
+function pMovies(){
+    Number=Number-1
+    if(Number<1){
+        Number=0
+    }
+    document.getElementById("Avatar").src=Movie[Number]
+
+
+}
